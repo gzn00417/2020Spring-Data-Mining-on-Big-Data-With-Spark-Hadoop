@@ -1,11 +1,11 @@
 # coding=UTF-8
 import random
 
-N = 1000
+N = 10000
 M = 100
-filename = ".\data2.txt"
+filename = ".\data1.txt"
 with open(filename, "w", encoding="utf-8") as file:
     for i in range(N):
-        file.write(
-            "(" + str(i + 1) + ", " + str(round((random.random() - 0.5) * M, 3)) + ")\n"
-        )
+        if i != 0:
+            file.write(",")
+        file.write(str(round((random.random() - 0.5) * M, 3)))
