@@ -1,0 +1,5 @@
+people = spark.read.json("people.json")
+people.show()
+sqlContext.registerDataFrameAsTable(people, "people")
+df2 = spark.sql("SELECT name, age FROM people WHERE age > 20")
+df2.show()
