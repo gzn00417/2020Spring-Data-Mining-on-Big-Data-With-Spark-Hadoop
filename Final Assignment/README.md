@@ -1,6 +1,7 @@
 # Assignment Document
 
 > - **By 1183710109 郭茁宁**
+> - [GitHub Repostory]([https://github.com/gzn00417/2020Spring-Data-Mining-on-Big-Data-With-Spark-Hadoop/tree/master/Final%20Assignment](https://github.com/gzn00417/2020Spring-Data-Mining-on-Big-Data-With-Spark-Hadoop/tree/master/Final Assignment))
 
 > Problem Restatement:
 >
